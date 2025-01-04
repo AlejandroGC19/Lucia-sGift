@@ -1,0 +1,23 @@
+*{
+    font-size: 1vw;
+}
+.layout{
+    height: 100vh;
+    background-color: #2C3845;
+}
+.navbar{
+    background-color: #1e272e;
+    height: 10vh;
+}
+.footer, .btn{
+    height: 5vh;
+}
+.prueba, .home{
+    height: 85vh;
+}
+.home{
+    background-image: url("https://www.serpadres.es/wp-content/uploads/sites/4/2024/07/17/66978b52207d9.jpeg");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
