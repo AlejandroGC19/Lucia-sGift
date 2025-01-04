@@ -49,7 +49,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 						break;
 					case 4:
 						setStore({solucion: "concierto sevilla"})
-						setStore({pista1: "PISTA 1: Subraya lo importante para saber qué buscamos: cifrar y ordenar",
+						setStore({pista1: "PISTA 1: Marca lo importante para saber qué buscamos: cifrar y ordenar",
 							pista2: "PISTA 2: Es importante ver bien, que te guste la música y tener un color especial"
 						})
 						break;
@@ -67,7 +67,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 						break;
 					case 7:
 						setStore({solucion: "justin timberlake"})
-						setStore({pista1: "PISTA 1: sólo en algunos lugares se disfruta",
+						setStore({pista1: "PISTA 1: SÓLO EN algunos lugares se disfruta",
 							pista2: "Pista 2: Para la imagen muy tradicional necesitarás un C2 en el idioma de la letra doble del abecedario"
 						})
 						break;
