@@ -19,8 +19,8 @@ const getState = ({ getStore, getActions, setStore }) => {
 				setStore({pista: number+1})
 			},
 			restarNumber: (number) => {
-				setStore({number: number-1})
-				getActions().defineSolution(number)
+				setStore({number: number})
+				getActions().defineSolution(number-1)
 				setStore({pista: 0})
 			},
 			iniciarNumber: () => {
@@ -38,7 +38,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 					case 2:
 						setStore({solucion: "gafas"})
 						setStore({pista1: "PISTA 1: En esta prueba hay cosas raras, si te centras en ello verás mejor",
-							pista2: "PISTA 2: El fondo está un poco borroso, hay que tratar de enfocar"
+							pista2: "PISTA 2: Parece que no lo estás viendo, dale media vuelta a la cabeza"
 						})
 						break;
 					case 3:	
@@ -49,13 +49,13 @@ const getState = ({ getStore, getActions, setStore }) => {
 						break;
 					case 4:
 						setStore({solucion: "concierto sevilla"})
-						setStore({pista1: "PISTA 1: Buscamos what y when, primero cifrar y luego ordenar",
+						setStore({pista1: "PISTA 1: Subraya lo importante para saber qué buscamos: cifrar y ordenar",
 							pista2: "PISTA 2: Es importante ver bien, que te guste la música y tener un color especial"
 						})
 						break;
 					case 5:
 						setStore({solucion: "30 mayo"})
-						setStore({pista1: "PISTA 1: Las W te dicen qué busco",
+						setStore({pista1: "PISTA 1: A veces hay que dar pasos dobles para superar obstáculos",
 							pista2: "PISTA 2: La ventolera es una comparsa, estudia carnaval...."
 						})
 						break;
@@ -67,7 +67,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 						break;
 					case 7:
 						setStore({solucion: "justin timberlake"})
-						setStore({pista1: "PISTA 1: Imágenes",
+						setStore({pista1: "PISTA 1: sólo en algunos lugares se disfruta",
 							pista2: "Pista 2: Para la imagen muy tradicional necesitarás un C2 en el idioma de la letra doble del abecedario"
 						})
 						break;

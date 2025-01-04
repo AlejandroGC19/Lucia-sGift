@@ -27,7 +27,7 @@ export const Navbar = () => {
 				</div>}
 				{store.number > 1 && 
 				<div className="w-25">
-					<Link to={"/prueba/"+store.number} onClick={() => actions.restarNumber(store.number)}>
+					<Link to={"/prueba/"+store.number} onClick={() => actions.restarNumber(store.number-1)}>
 						<button className="btn btn-primary w-100"><i className="fa-solid fa-arrow-left fa-xl"></i></button>
 					</Link>
 				</div>}
